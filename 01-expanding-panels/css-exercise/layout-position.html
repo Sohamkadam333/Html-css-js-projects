@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			body {
+				position: relative;
+				height: 1000px;
+			}
+			.box1 {
+				width: 100px;
+				height: 100px;
+				background-color: red;
+				position: relative;
+				top: 20px;
+				left: 200px;
+			}
+			.box2 {
+				width: 200px;
+				height: 200px;
+				background-color: blue;
+				position: absolute;
+				bottom: 10px;
+			}
+			.fixed {
+				height: 100px;
+				width: 100px;
+				background-color: lightblue;
+				position: fixed;
+			}
+			.static {
+				height: 100px;
+				width: 100px;
+				background-color: lightcoral;
+				position: static;
+			}
+			.sticky {
+				height: 100px;
+				width: 100px;
+				top: 0px;
+				left: 300px;
+				background-color: lightgreen;
+				position: sticky;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="sticky">sticky</div>
+		<div class="static">static</div>
+		<div class="box1">relative</div>
+		<div class="box2">absolute</div>
+		<div class="fixed">fixed</div>
+	</body>
+</html>

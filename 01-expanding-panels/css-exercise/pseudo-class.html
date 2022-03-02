@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			body {
+				font-size: 20px;
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			}
+			a:link {
+				color: pink;
+			}
+			a:visited {
+				color: green;
+			}
+			a:hover {
+				color: red;
+			}
+			a:active {
+				color: blue;
+			}
+			input:disabled {
+				background-color: green;
+			}
+			input:enabled {
+				background-color: red;
+			}
+			input:focus {
+				background-color: blue;
+			}
+			.parent p:first-child {
+				color: red;
+			}
+			p:nth-child(2) {
+				color: blue;
+			}
+			p:nth-last-child(2) {
+				color: orange;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="">google</a>
+		<input type="text" name="hello" id="" placeholder="Enter name" aria-invalid="grammar" />
+		<div class="parent">
+			<p>1</p>
+			<p>2</p>
+			<p>3</p>
+			<p>4</p>
+		</div>
+		<div class="parent">
+			<p>1</p>
+			<p>2</p>
+			<p>3</p>
+			<p>4</p>
+		</div>
+	</body>
+</html>
