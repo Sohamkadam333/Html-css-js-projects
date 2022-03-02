@@ -2,8 +2,8 @@
 # Expanding Cards Demo
 
 ## Screeshot
-![App Screenshot]('./../site-screenshot.png')
+<img src="./site-screenshot.png" width="350" alt="live">
 
 
-## Demo
+## Demo - Live
 https://expanding-cards-sk.netlify.app/
